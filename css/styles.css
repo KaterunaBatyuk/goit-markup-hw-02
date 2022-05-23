@@ -1,127 +1,126 @@
-body {
-    color:var(--primary-text-color);
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03 em;
-}
-:root{
-    --primary-text-color: #212121;
-    --title-text-color: #757575;
-    --accent-color: #2196F3;
-    --primery-bg-color: #F5F4FA;;
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primery-bg-color: #f5f4fa;
 }
 
-.logo{
-    color: var(--accent-color);
-    font-family: Raleway , sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        cursor: pointer;
-        text-decoration: none;
+body {
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03 em;
 }
-.logo-s{
-    color: var(--primary-text-color);
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
-.site-nav .link{
-    color: var(--primary-text-color);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        text-decoration: none;
+.logo-s {
+  color: var(--primary-text-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus{
-    color:var(--accent-color);
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
-.site-nav .link.current{
-color: var(--accent-color);
+.site-nav .link.current {
+  color: var(--accent-color);
 }
-.contact .link{
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
+.contact .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 .contact .link:hover,
-.contact .link:focus{
-    color:var(--accent-color);
+.contact .link:focus {
+  color: var(--accent-color);
 }
-.solutions-title{
-    color: #FFFFFF;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
+.solutions-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
-.solutions{
-    background-color: #2F303A;
+.solutions {
+  background-color: #2f303a;
+  text-align: center;
 }
-.section-title{
-    color: var(--primary-text-color);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
-.section-advantage{
-color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+.section-advantage {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.section-work{
-    color: var(--primary-text-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
+.section-work {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
-.section-position{
-    color: var(--title-text-color);
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
+.section-position {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
-.section-paragraph{
-    color: var(--title-text-color);
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
+.section-paragraph {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
-.section-team{
-    background: #F5F4FA;
+.section-team {
+  background: #f5f4fa;
 }
 
 .button-primery {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
-    cursor: pointer;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
-.button-secondary{
-color:var(--primary-text-color);
-background-color:var(--primery-bg-color);
-cursor: pointer;
+.button-secondary {
+  color: var(--primary-text-color);
+  background-color: var(--primery-bg-color);
+  cursor: pointer;
 }
-.section-project .link:hover,
-.section-project .link:focus {
-    color: var(--accent-color);
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
 }
-.footer{
-    background-color: #2F303A;
+.footer {
+  background-color: #2f303a;
 }
-.footer .logo-s{
-    color: #FFFFFF;
+.footer .logo-s {
+  color: #ffffff;
 }
 .footer .link {
-    color: #FFFFFF;
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
 .footer .link:hover,
 .footer .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
