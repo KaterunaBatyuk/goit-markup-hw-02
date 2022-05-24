@@ -1,3 +1,4 @@
+/* Оформление страницы Студия */
 :root {
   --primary-text-color: #212121;
   --title-text-color: #757575;
@@ -98,14 +99,63 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo-s {
+  color: #ffffff;
+}
+.footer .link {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
+/* Оформление страницы Портфолио */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-s {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contact .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
 .button-secondary {
   color: var(--primary-text-color);
   background-color: var(--primery-bg-color);
   cursor: pointer;
-}
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
 }
 .footer {
   background-color: #2f303a;
